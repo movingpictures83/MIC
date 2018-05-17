@@ -1,0 +1,2 @@
+Prefix plugins/MIC/example/
+Plugin MIC inputfile abundN.csv outputfile corrP.mic.csv
