@@ -34,7 +34,7 @@ run <- function() {
   for (i in 1:ncol(pc)) {
      for (j in 1:ncol(pc)) {
         if (i != j) {
-           mine.r = mine(x=pc[,i], y=pc[,j], var.thr=1e-13)
+           mine.r = suppressWarnings(mine(x=pc[,i], y=pc[,j], var.thr=1e-13))
            correlations[i, j] = mine.r$MIC
         }
         else {
