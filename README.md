@@ -2,7 +2,8 @@
 # Language: R
 # Input: CSV (abundances)
 # Output: CSV (correlations)
-# Tested with: PluMA 1.0, R 3.2.5
+# Tested with: PluMA 1.1, R 4.0.0
+# Dependency: minerva_1.5.8, Hmisc_4.4.0
 
 PluMA plugin to compute the Maximal Information Coefficient (or MIC, (Reshef, 2011)), which measures
 linear and nonlinear correlations between datasets.  In this case the plugin expects
